@@ -1,30 +1,29 @@
 import {
-  Code,
-  Palette,
-  Settings,
-  Bot,
-  Globe,
-  Smartphone,
-  Database,
-  Zap,
-  Workflow,
-  PenTool,
   BarChart3,
-  Server,
-  PaintRoller as GameController2,
-  ShoppingCart,
-  Cloud,
-  Monitor,
-  Cpu,
-  Shield,
-  Users,
-  MessageSquare,
+  Bot,
   Briefcase,
+  Cloud,
+  Code,
+  Cpu,
+  Database,
+  PaintRoller as GameController2,
+  Globe,
+  MessageSquare,
+  Monitor,
+  Palette,
+  PenTool,
+  Server,
+  Shield,
+  ShoppingCart,
+  Smartphone,
   Target,
-  TrendingUp,
+  Users,
+  Workflow,
+  Zap
 } from "lucide-react";
 
 export interface ServiceFeature {
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   icon: any;
   text: string;
 }
@@ -50,6 +49,7 @@ export interface Service {
   slug: string;
   title: string;
   description: string;
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   icon: any;
   category: string;
   technologies: string[];

@@ -36,7 +36,7 @@ export default function ContactPage() {
               Get In Touch
             </h1>
             <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl leading-7 sm:leading-8 text-muted-foreground text-pretty">
-              Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond as soon
+              Ready to start your next project? We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon
               as possible.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function ContactPage() {
               Visit Our Office
             </h2>
             <p className="mt-3 sm:mt-4 text-sm sm:text-base lg:text-lg text-muted-foreground text-pretty">
-              We're located in the heart of the tech district
+              We&apos;re located in the heart of the tech district
             </p>
           </div>
           <div className="aspect-video rounded-lg overflow-hidden bg-muted">

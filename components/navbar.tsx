@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
+import { CompleteLogo } from "@/assets";
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown } from "lucide-react";
 import { servicesOverview } from "@/lib/services-data";
+import { ChevronDown, Menu, X } from "lucide-react";
 import Image from "next/image";
-import { CompleteLogo, Logo } from "@/assets";
+import Link from "next/link";
+import { useState } from "react";
 
 const mainNavigation = [
   { name: "Home", href: "/" },

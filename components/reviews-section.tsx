@@ -68,7 +68,7 @@ export default function ReviewsSection() {
             What Our Clients Say
           </h2>
           <p className="mt-4 text-lg text-muted-foreground text-pretty">
-            Don't just take our word for it. Here's what our satisfied clients have to say about our work.
+            Don&apos;t just take our word for it. Here&apos;s what our satisfied clients have to say about our work.
           </p>
         </div>
 
@@ -81,7 +81,7 @@ export default function ReviewsSection() {
                     <Star key={i} className="h-4 w-4 fill-secondary text-secondary" />
                   ))}
                 </div>
-                <blockquote className="text-sm text-muted-foreground mb-4">"{review.content}"</blockquote>
+                <blockquote className="text-sm text-muted-foreground mb-4">&quot;{review.content}&quot;</blockquote>
                 <div className="flex items-center space-x-3">
                   <Avatar className="h-10 w-10">
                     <AvatarImage src={review.avatar || "/placeholder.svg"} alt={review.name} />

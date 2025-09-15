@@ -99,7 +99,6 @@ interface EnhancedReviewsProps {
 export default function EnhancedReviews({
   title = "What Our Clients Say",
   description = "Don't just take our word for it. Here's what our satisfied clients have to say about our work.",
-  showProjectDetails = true,
 }: EnhancedReviewsProps) {
   return (
     <section className="bg-muted/50 py-24 sm:py-32">
@@ -129,7 +128,7 @@ export default function EnhancedReviews({
                 </div>
 
                 <blockquote className="text-sm text-gray-800 mb-6 leading-relaxed">
-                  "{review.content}"
+                  &quot;{review.content}&quot;
                 </blockquote>
 
                 <div className="flex items-center space-x-3">

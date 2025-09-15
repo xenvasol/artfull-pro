@@ -6,29 +6,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Star, ArrowRight, CheckCircle } from "lucide-react"
 import type { Service } from "@/lib/services-data"
 
-interface Project {
-  title: string
-  description: string
-  image: string
-  technologies: string[]
-  link?: string
-}
-
-interface Review {
-  name: string
-  company: string
-  role: string
-  content: string
-  rating: number
-  avatar: string
-}
-
 interface ServicePageProps {
   service: Service
 }
 
 export default function ServicePageTemplate({ service }: ServicePageProps) {
-  console.log("[v0] Rendering service template for:", service.title)
+  console.log("Rendering service template for:", service.title)
 
   const {
     title,
@@ -219,7 +202,7 @@ export default function ServicePageTemplate({ service }: ServicePageProps) {
                     ))}
                   </div>
                   <blockquote className="text-sm text-muted-foreground mb-4 flex-grow leading-relaxed">
-                    "{review.comment}"
+                    &quot;{review.comment}&quot;
                   </blockquote>
                   <div className="flex items-center space-x-3 mt-auto">
                     <Avatar className="h-10 w-10">
@@ -252,7 +235,7 @@ export default function ServicePageTemplate({ service }: ServicePageProps) {
               Ready to Get Started?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground text-pretty">
-              Let's discuss your {title.toLowerCase()} project and bring your vision to life.
+              Let&apos;s discuss your {title.toLowerCase()} project and bring your vision to life.
             </p>
             <div className="mt-8">
               <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90">

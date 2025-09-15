@@ -14,7 +14,7 @@ export default function ProjectsPage() {
                 Our Project Portfolio
               </h1>
               <p className="mt-6 text-lg leading-8 text-muted-foreground text-pretty">
-                Discover the innovative solutions we've created for businesses across various industries. From web
+                Discover the innovative solutions we&apos;ve created for businesses across various industries. From web
                 development to AI automation, each project showcases our commitment to excellence.
               </p>
             </div>

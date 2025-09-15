@@ -71,7 +71,7 @@ export default function AboutPage() {
               About Artful Pro
             </h1>
             <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl leading-7 sm:leading-8 text-muted-foreground text-pretty">
-              We're a passionate team of developers, designers, and innovators dedicated to transforming your digital
+              We&apos;re a passionate team of developers, designers, and innovators dedicated to transforming your digital
               vision into reality.
             </p>
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
@@ -124,12 +124,12 @@ export default function AboutPage() {
                 digital experiences has grown into a full-service digital agency serving clients worldwide.
               </p>
               <p className="text-base sm:text-lg leading-relaxed mb-6">
-                Over the years, we've evolved from a startup to a trusted partner for businesses of all sizes. Our
+                Over the years, we&apos;ve evolved from a startup to a trusted partner for businesses of all sizes. Our
                 journey has been marked by continuous learning, adaptation to new technologies, and an unwavering
                 commitment to delivering excellence in every project we undertake.
               </p>
               <p className="text-base sm:text-lg leading-relaxed">
-                Today, we're proud to be at the forefront of digital innovation, helping businesses transform their
+                Today, we&apos;re proud to be at the forefront of digital innovation, helping businesses transform their
                 ideas into successful digital products that make a real impact in their industries.
               </p>
             </div>
@@ -208,7 +208,7 @@ export default function AboutPage() {
               Ready to Work Together?
             </h2>
             <p className="mt-3 sm:mt-4 text-sm sm:text-base lg:text-lg text-muted-foreground text-pretty">
-              Let's discuss how we can help bring your digital vision to life.
+              Let&apos;s discuss how we can help bring your digital vision to life.
             </p>
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
               <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90 w-full sm:w-auto">
