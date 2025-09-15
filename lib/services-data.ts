@@ -28,6 +28,7 @@ export interface ServiceFeature {
   text: string;
 }
 
+// Service
 export interface ServiceProject {
   title: string;
   description: string;
